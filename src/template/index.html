@@ -13,19 +13,17 @@
     code {font-size:13px}
   </style>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"></script>
-  <script type="text/javascript">
+  <script>
     window.MathJax = {
-      tex2jax: {
-        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-        processEscapes: true,
-        processClass: 'latex-cell'
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[','\\]']]
       },
-      "HTML-CSS": {
-        preferredFont: "STIX"
-      }
+      svg: { fontCache: 'global' }
     };
   </script>
-  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+  <script id="MathJax-script" async
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.0.4/es5/tex-mml-chtml.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/docco.min.css">
   <script>hljs.initHighlightingOnLoad();</script>
 </head>
