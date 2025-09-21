@@ -1,6 +1,6 @@
 {
   "name": "quiver2html",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A utility to convert a Quiver notebook or note to HTML.",
   "bin": {
     "quiver2html": "./bin/quiver2html"
@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/HappenApps/quiver2html",
   "dependencies": {
-    "fs-extra": "^8.1.0",
-    "markdown-it": "^10.0.0",
-    "nomnom": "^1.8.1"
+    "fs-extra": "8.1.0",
+    "markdown-it": "14.1.0",
+    "nomnom": "1.5.3"
   }
 }
